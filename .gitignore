@@ -12,3 +12,6 @@ logs/
 data/*.txt
 
 *.duckdb
+
+# macOS junk
+.DS_Store
