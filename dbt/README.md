@@ -1,11 +1,48 @@
 # CC-Cedict-dbt
 
 
-Download the latest versin of the cc-ceeict dictionary:
+Install requirements:
 
 ```
-python scripts/download_cc_cedict.py
+pip install dbt-duckdb
+pip install -U recce
+
 ```
+
+
+Download the latest version of the cc-cedict dictionary:
+
+```
+python scripts/cc_cedict_download.py
+```
+
+Create the dbt seeds CSV:
+
+```
+python scripts/cc_cedict_seeds.py
+```
+
+Seed:
+```
+dbt seed
+```
+
+Run dbt
+```
+dbt run
+```
+
+Generate docs:
+```
+dbt docs generate
+```
+
+Run Recce:
+```
+recce server
+```
+
+
 
 Welcome to your new dbt project!
 
