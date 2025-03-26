@@ -1,0 +1,14 @@
+# Ignore Python + venv junk
+venv/
+__pycache__/
+*.pyc
+
+# Ignore DuckDB or seed outputs
+*.db
+
+# Ignore logs and intermediate data
+logs/
+*.zip
+data/*.txt
+
+*.duckdb

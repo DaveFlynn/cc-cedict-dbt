@@ -1,0 +1,8 @@
+# cc_cedict/profiles.yml
+
+cc_cedict:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: cc_cedict.duckdb

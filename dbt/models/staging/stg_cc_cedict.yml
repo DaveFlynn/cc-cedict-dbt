@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_cc_cedict
+    columns:
+      - name: simplified
+        tests:
+          - not_null
+      - name: traditional
+        tests:
+          - not_null
+      - name: pinyin
+        tests:
+          - not_null
